@@ -1,0 +1,50 @@
+import { Marker } from "react-globe";
+
+const markers: Marker[] = [
+  {
+    id: 1,
+    city: "Singapore",
+    color: "red",
+    coordinates: [1.3521, 103.8198],
+    value: 50,
+    image:
+      "https://images.unsplash.com/photo-1536517394620-8fbcfadb9be8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFmcmljYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    id: 2,
+    city: "New York",
+    color: "blue",
+    coordinates: [40.73061, -73.935242],
+    value: 25
+  },
+  {
+    id: 3,
+    city: "San Francisco",
+    color: "orange",
+    coordinates: [37.773972, -122.431297],
+    value: 35
+  },
+  {
+    id: 4,
+    city: "Beijing",
+    color: "gold",
+    coordinates: [39.9042, 116.4074],
+    value: 135
+  },
+  {
+    id: 5,
+    city: "London",
+    color: "green",
+    coordinates: [51.5074, 0.1278],
+    value: 80
+  },
+  {
+    id: 6,
+    city: "Los Angeles",
+    color: "gold",
+    coordinates: [29.7604, -95.3698],
+    value: 54
+  }
+];
+
+export default markers;
